@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6A681127ED1AB500EFA86C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A681027ED1AB400EFA86C /* User.swift */; };
+		7A6A681327ED1ADD00EFA86C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A681227ED1ADD00EFA86C /* UserView.swift */; };
+		06A264E427FE6ECD00D0F148 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A264E327FE6ECD00D0F148 /* Modifier.swift */; };
+		06A264E727FE7B5000D0F148 /* SchedulingLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A264E527FE7B4400D0F148 /* SchedulingLaunchTests.swift */; };
+		06D4E59527DAA1FC00A4EA78 /* Scheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4E59427DAA1FC00A4EA78 /* Scheduling.swift */; };
+		06D4E59727DAA21D00A4EA78 /* SchedulingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4E59627DAA21D00A4EA78 /* SchedulingView.swift */; };
+		06D4E59A27DAA32700A4EA78 /* SchedulingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4E59827DAA31A00A4EA78 /* SchedulingUITests.swift */; };
+		F243276F281B36710079CC86 /* Messaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243276E281B36710079CC86 /* Messaging.swift */; };
+		F24327712821D5030079CC86 /* UserAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24327702821D5030079CC86 /* UserAccountView.swift */; };
+		F26993A627DAA0CC004CC884 /* dnd_plannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26993A527DAA0CC004CC884 /* dnd_plannerApp.swift */; };
+		F26993A827DAA0CC004CC884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26993A727DAA0CC004CC884 /* ContentView.swift */; };
+		F26993AA27DAA0CE004CC884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26993A927DAA0CE004CC884 /* Assets.xcassets */; };
+		F26993AD27DAA0CE004CC884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26993AC27DAA0CE004CC884 /* Preview Assets.xcassets */; };
+		F26993B727DAA0CE004CC884 /* dnd_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26993B627DAA0CE004CC884 /* dnd_plannerTests.swift */; };
+		F26993C127DAA0CE004CC884 /* dnd_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26993C027DAA0CE004CC884 /* dnd_plannerUITests.swift */; };
+		F26993C327DAA0CE004CC884 /* dnd_plannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26993C227DAA0CE004CC884 /* dnd_plannerUITestsLaunchTests.swift */; };
+		F26993D027DAA32C004CC884 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26993CF27DAA32C004CC884 /* MapManager.swift */; };
+		F26993D227DAA34C004CC884 /* NearbyUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26993D127DAA34C004CC884 /* NearbyUsersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26993B327DAA0CE004CC884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F269939A27DAA0CC004CC884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26993A127DAA0CC004CC884;
+			remoteInfo = "dnd-planner";
+		};
+		F26993BD27DAA0CE004CC884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F269939A27DAA0CC004CC884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26993A127DAA0CC004CC884;
+			remoteInfo = "dnd-planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A6A681027ED1AB400EFA86C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7A6A681227ED1ADD00EFA86C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		06A264E327FE6ECD00D0F148 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		06A264E527FE7B4400D0F148 /* SchedulingLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingLaunchTests.swift; sourceTree = "<group>"; };
+		06D4E59427DAA1FC00A4EA78 /* Scheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduling.swift; sourceTree = "<group>"; };
+		06D4E59627DAA21D00A4EA78 /* SchedulingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingView.swift; sourceTree = "<group>"; };
+		06D4E59827DAA31A00A4EA78 /* SchedulingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingUITests.swift; sourceTree = "<group>"; };
+		F243276E281B36710079CC86 /* Messaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messaging.swift; sourceTree = "<group>"; };
+		F24327702821D5030079CC86 /* UserAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountView.swift; sourceTree = "<group>"; };
+		F26993A227DAA0CC004CC884 /* dnd-planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dnd-planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26993A527DAA0CC004CC884 /* dnd_plannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnd_plannerApp.swift; sourceTree = "<group>"; };
+		F26993A727DAA0CC004CC884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F26993A927DAA0CE004CC884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26993AC27DAA0CE004CC884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F26993B227DAA0CE004CC884 /* dnd-plannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dnd-plannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26993B627DAA0CE004CC884 /* dnd_plannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnd_plannerTests.swift; sourceTree = "<group>"; };
+		F26993BC27DAA0CE004CC884 /* dnd-plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dnd-plannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26993C027DAA0CE004CC884 /* dnd_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnd_plannerUITests.swift; sourceTree = "<group>"; };
+		F26993C227DAA0CE004CC884 /* dnd_plannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnd_plannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F26993CF27DAA32C004CC884 /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		F26993D127DAA34C004CC884 /* NearbyUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyUsersView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F269939F27DAA0CC004CC884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26993AF27DAA0CE004CC884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26993B927DAA0CE004CC884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F269939927DAA0CC004CC884 = {
+			isa = PBXGroup;
+			children = (
+				F26993A427DAA0CC004CC884 /* dnd-planner */,
+				F26993B527DAA0CE004CC884 /* dnd-plannerTests */,
+				F26993BF27DAA0CE004CC884 /* dnd-plannerUITests */,
+				F26993A327DAA0CC004CC884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26993A327DAA0CC004CC884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26993A227DAA0CC004CC884 /* dnd-planner.app */,
+				F26993B227DAA0CE004CC884 /* dnd-plannerTests.xctest */,
+				F26993BC27DAA0CE004CC884 /* dnd-plannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26993A427DAA0CC004CC884 /* dnd-planner */ = {
+			isa = PBXGroup;
+			children = (
+				F26993A527DAA0CC004CC884 /* dnd_plannerApp.swift */,
+				F26993A727DAA0CC004CC884 /* ContentView.swift */,
+				F243276E281B36710079CC86 /* Messaging.swift */,
+				06D4E59427DAA1FC00A4EA78 /* Scheduling.swift */,
+				06D4E59627DAA21D00A4EA78 /* SchedulingView.swift */,
+				06A264E327FE6ECD00D0F148 /* Modifier.swift */,
+				F26993A927DAA0CE004CC884 /* Assets.xcassets */,
+				F26993AB27DAA0CE004CC884 /* Preview Content */,
+				7A6A681027ED1AB400EFA86C /* User.swift */,
+				7A6A681227ED1ADD00EFA86C /* UserView.swift */,
+				F26993CF27DAA32C004CC884 /* MapManager.swift */,
+				F26993D127DAA34C004CC884 /* NearbyUsersView.swift */,
+				F24327702821D5030079CC86 /* UserAccountView.swift */,
+			);
+			path = "dnd-planner";
+			sourceTree = "<group>";
+		};
+		F26993AB27DAA0CE004CC884 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F26993AC27DAA0CE004CC884 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F26993B527DAA0CE004CC884 /* dnd-plannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26993B627DAA0CE004CC884 /* dnd_plannerTests.swift */,
+			);
+			path = "dnd-plannerTests";
+			sourceTree = "<group>";
+		};
+		F26993BF27DAA0CE004CC884 /* dnd-plannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F26993C027DAA0CE004CC884 /* dnd_plannerUITests.swift */,
+				F26993C227DAA0CE004CC884 /* dnd_plannerUITestsLaunchTests.swift */,
+				06D4E59827DAA31A00A4EA78 /* SchedulingUITests.swift */,
+				06A264E527FE7B4400D0F148 /* SchedulingLaunchTests.swift */,
+			);
+			path = "dnd-plannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26993A127DAA0CC004CC884 /* dnd-planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26993C627DAA0CE004CC884 /* Build configuration list for PBXNativeTarget "dnd-planner" */;
+			buildPhases = (
+				F269939E27DAA0CC004CC884 /* Sources */,
+				F269939F27DAA0CC004CC884 /* Frameworks */,
+				F26993A027DAA0CC004CC884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dnd-planner";
+			productName = "dnd-planner";
+			productReference = F26993A227DAA0CC004CC884 /* dnd-planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26993B127DAA0CE004CC884 /* dnd-plannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26993C927DAA0CE004CC884 /* Build configuration list for PBXNativeTarget "dnd-plannerTests" */;
+			buildPhases = (
+				F26993AE27DAA0CE004CC884 /* Sources */,
+				F26993AF27DAA0CE004CC884 /* Frameworks */,
+				F26993B027DAA0CE004CC884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26993B427DAA0CE004CC884 /* PBXTargetDependency */,
+			);
+			name = "dnd-plannerTests";
+			productName = "dnd-plannerTests";
+			productReference = F26993B227DAA0CE004CC884 /* dnd-plannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F26993BB27DAA0CE004CC884 /* dnd-plannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26993CC27DAA0CE004CC884 /* Build configuration list for PBXNativeTarget "dnd-plannerUITests" */;
+			buildPhases = (
+				F26993B827DAA0CE004CC884 /* Sources */,
+				F26993B927DAA0CE004CC884 /* Frameworks */,
+				F26993BA27DAA0CE004CC884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26993BE27DAA0CE004CC884 /* PBXTargetDependency */,
+			);
+			name = "dnd-plannerUITests";
+			productName = "dnd-plannerUITests";
+			productReference = F26993BC27DAA0CE004CC884 /* dnd-plannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F269939A27DAA0CC004CC884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F26993A127DAA0CC004CC884 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F26993B127DAA0CE004CC884 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F26993A127DAA0CC004CC884;
+					};
+					F26993BB27DAA0CE004CC884 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F26993A127DAA0CC004CC884;
+					};
+				};
+			};
+			buildConfigurationList = F269939D27DAA0CC004CC884 /* Build configuration list for PBXProject "dnd-planner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F269939927DAA0CC004CC884;
+			productRefGroup = F26993A327DAA0CC004CC884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26993A127DAA0CC004CC884 /* dnd-planner */,
+				F26993B127DAA0CE004CC884 /* dnd-plannerTests */,
+				F26993BB27DAA0CE004CC884 /* dnd-plannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26993A027DAA0CC004CC884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26993AD27DAA0CE004CC884 /* Preview Assets.xcassets in Resources */,
+				F26993AA27DAA0CE004CC884 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26993B027DAA0CE004CC884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26993BA27DAA0CE004CC884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F269939E27DAA0CC004CC884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243276F281B36710079CC86 /* Messaging.swift in Sources */,
+				06D4E59727DAA21D00A4EA78 /* SchedulingView.swift in Sources */,
+				F26993A827DAA0CC004CC884 /* ContentView.swift in Sources */,
+				06D4E59527DAA1FC00A4EA78 /* Scheduling.swift in Sources */,
+				F26993D027DAA32C004CC884 /* MapManager.swift in Sources */,
+				F26993D227DAA34C004CC884 /* NearbyUsersView.swift in Sources */,
+				F24327712821D5030079CC86 /* UserAccountView.swift in Sources */,
+				F26993A627DAA0CC004CC884 /* dnd_plannerApp.swift in Sources */,
+				7A6A681127ED1AB500EFA86C /* User.swift in Sources */,
+				7A6A681327ED1ADD00EFA86C /* UserView.swift in Sources */,
+				06A264E427FE6ECD00D0F148 /* Modifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26993AE27DAA0CE004CC884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26993B727DAA0CE004CC884 /* dnd_plannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26993B827DAA0CE004CC884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4E59A27DAA32700A4EA78 /* SchedulingUITests.swift in Sources */,
+				06A264E727FE7B5000D0F148 /* SchedulingLaunchTests.swift in Sources */,
+				F26993C327DAA0CE004CC884 /* dnd_plannerUITestsLaunchTests.swift in Sources */,
+				F26993C127DAA0CE004CC884 /* dnd_plannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26993B427DAA0CE004CC884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26993A127DAA0CC004CC884 /* dnd-planner */;
+			targetProxy = F26993B327DAA0CE004CC884 /* PBXContainerItemProxy */;
+		};
+		F26993BE27DAA0CE004CC884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26993A127DAA0CC004CC884 /* dnd-planner */;
+			targetProxy = F26993BD27DAA0CE004CC884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F26993C427DAA0CE004CC884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F26993C527DAA0CE004CC884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26993C727DAA0CE004CC884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dnd-planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fulleron.ecs.dnd-planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26993C827DAA0CE004CC884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dnd-planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fulleron.ecs.dnd-planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F26993CA27DAA0CE004CC884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fulleron.ecs.dnd-plannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dnd-planner.app/dnd-planner";
+			};
+			name = Debug;
+		};
+		F26993CB27DAA0CE004CC884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fulleron.ecs.dnd-plannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dnd-planner.app/dnd-planner";
+			};
+			name = Release;
+		};
+		F26993CD27DAA0CE004CC884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fulleron.ecs.dnd-plannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dnd-planner";
+			};
+			name = Debug;
+		};
+		F26993CE27DAA0CE004CC884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fulleron.ecs.dnd-plannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dnd-planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F269939D27DAA0CC004CC884 /* Build configuration list for PBXProject "dnd-planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26993C427DAA0CE004CC884 /* Debug */,
+				F26993C527DAA0CE004CC884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26993C627DAA0CE004CC884 /* Build configuration list for PBXNativeTarget "dnd-planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26993C727DAA0CE004CC884 /* Debug */,
+				F26993C827DAA0CE004CC884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26993C927DAA0CE004CC884 /* Build configuration list for PBXNativeTarget "dnd-plannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26993CA27DAA0CE004CC884 /* Debug */,
+				F26993CB27DAA0CE004CC884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26993CC27DAA0CE004CC884 /* Build configuration list for PBXNativeTarget "dnd-plannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26993CD27DAA0CE004CC884 /* Debug */,
+				F26993CE27DAA0CE004CC884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F269939A27DAA0CC004CC884 /* Project object */;
+}
