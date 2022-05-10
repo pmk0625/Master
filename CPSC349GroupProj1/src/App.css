@@ -1,0 +1,12 @@
+.app-dark {
+    background-color: #18191a;
+}
+
+.app-light {
+    background-color: #ebdbdb
+}
+
+.app__body {
+    display: flex;
+    width: 100%;
+}
