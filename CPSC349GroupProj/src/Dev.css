@@ -1,0 +1,48 @@
+.dev {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.dev:hover {
+    transform: scale(1.07);
+}
+
+.dev__avatar {
+    margin: 10px;
+    border: 5px solid #2fc31d;
+}
+
+.dev > h4 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.dev .tool-tip-intro {
+    visibility: hidden;
+    width: 133px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 63px;
+    margin-top: 8px;
+
+}
+
+.dev:hover .tool-tip-intro {
+    visibility: visible;
+}

@@ -1,0 +1,11 @@
+.devReelHeader {
+    display: flex;
+}
+
+.devReelHeader > h1 {
+    margin-top:  0px;
+    font-weight: 600px;
+    color: #e4e6eb;
+    font-style: bold;
+}
+

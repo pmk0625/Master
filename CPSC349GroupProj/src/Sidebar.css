@@ -1,0 +1,10 @@
+.sidebar {
+    padding: 25px 10px;
+    flex: 0.35;
+    color: white;
+}
+
+.sidebar > img {
+    height: 200px;
+    width: 350px;
+}
