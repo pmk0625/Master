@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link href="payment-form.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+        <meta charset="utf-8">
+        <title>PaymentForm</title>
+    </head>
+    <body class="container">
+        <header><h1>Payment Form</h1></header>
+        <section>
+            <div class="panel panel-primary">
+                <div class="panel body">
+                    <form data-payment-form="form">
+                        <div class="form-group">
+                            <h1>Payment form</h1>
+                            <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+                        </div>
+                        <div class="form-group">
+                            <h2>Contact information</h2>
+                            <fieldset>
+                                <legend>Title</legend>
+                                    <ul>
+                                        <li>
+                                            <label for="title_1">
+                                                <input type="radio" id="title_1" name="title" value="K">
+                                                King
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label for="title_2">
+                                                <input type="radio" id="title_2" name="title" value="Q">
+                                                Queen
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label for="title_3">
+                                                <input type="radio" id="title_3" name="title" value="J">
+                                                Jack
+                                            </label>
+                                        </li>
+                                    </ul>
+                            </fieldset>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">
+                                <span>Name: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="text" id="name" name="username">
+                            <label for="mail">
+                                <span>E-mail: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="email" id="mail" name="usermail">
+                            <label for="pwd">
+                                <span>Password: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="password" id="pwd" name="password">
+                        </div>
+                        <div class="form-group">
+                            <h2>Payment information</h2>
+                            <label for="card">
+                                <span>Card type:</span>
+                            </label>
+                            <select id="card" name="usercard">
+                                <option value="visa">Visa</option>
+                                <option value="mc">Mastercard</option>
+                                <option value="amex">American Express</option>
+                            </select>
+                            <label for="number">
+                                <span>Card number:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="tel" id="number" name="cardnumber">
+                            <label for="date">
+                                <span>Expiration date:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                                <span>formatted as mm/dd/yyyy </span>
+                            </label>
+                            <input type="date" id="date" name="expiration">
+                        </div>
+
+                        <button type="submit" class="btn btn-outline-primary">Validate the payment</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+        <script src="scripts/formhandler.js" charset="utf-8"></script>
+    </body>
+</html>
