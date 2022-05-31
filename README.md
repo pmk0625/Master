@@ -30,6 +30,8 @@ Mode_Code_E - c++ / Basic array, swaps, sorts, shuffles, generate random number 
 
 Ottergram - javascript, html, css / Front-end web development of pictures on a website. Allow scrolling, click pictures and etc. Basic example
 
+P5-Wordle-Backend - python, sqlite3, nosql, traefik, json, db / Complete version of Wordle clone using back-end
+
 Payments - javascript, html, css / Basic form to handle payments. To be used for CoffeeRun_Firebase
 
 Project-2-COVID19-Tracker-master - html, javascript, css, npm, Gatsby(map service) / Finalized version of Covid map tracker
