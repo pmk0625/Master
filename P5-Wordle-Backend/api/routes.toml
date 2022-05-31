@@ -1,0 +1,51 @@
+[http]
+
+  [http.routers]
+
+    [http.routers.validate-http]
+      entryPoints = ["http"]
+      service = "validate"
+      rule = "PathPrefix(`/validate`) || PathPrefix(`/words`)"
+
+    [http.routers.answer-http]
+      entryPoints = ["http"]
+      service = "answer"
+      rule = "PathPrefix(`/answer`) || PathPrefix(`/next-answer`) || PathPrefix(`/check`)"
+
+    [http.routers.stats-http]
+      entryPoints = ["http"]
+      service = "stats"
+      rule = "PathPrefix(`/stats`) || PathPrefix(`/longest_streak`) || PathPrefix(`/top_wins`) || PathPrefix(`/finish`)"
+    
+    [http.routers.redis_connect-http]
+      entryPoints = ["http"]
+      service = "redis_connect"
+      rule = "PathPrefix(`/start`) || PathPrefix(`/make_guess`) || PathPrefix(`/get_game`)"
+
+    [http.routers.backend_for_frontend-http]
+      entryPoints = ["http"]
+      service = "backend_for_frontend"
+      rule = "PathPrefix(`/game/new`) || PathPrefix(`/game/{game_id:[0-999999]}`)"
+
+  [http.services]
+
+    [http.services.app]
+      [http.services.validate.loadBalancer]
+        [[http.services.validate.loadBalancer.servers]]
+          url = "http://127.0.0.1:5000"
+      [http.services.answer.loadBalancer]
+        [[http.services.answer.loadBalancer.servers]]
+          url = "http://127.0.0.1:5100"
+      [http.services.stats.loadBalancer]
+        [[http.services.stats.loadBalancer.servers]]
+          url = "http://127.0.0.1:5200"
+        [[http.services.stats.loadBalancer.servers]]
+          url = "http://127.0.0.1:5201"
+        [[http.services.stats.loadBalancer.servers]]
+          url = "http://127.0.0.1:5202"
+      [http.services.redis_connect.loadBalancer]
+        [[http.services.redis_connect.loadBalancer.servers]]
+          url = "http://127.0.0.1:5300"
+      [http.services.backend_for_frontend.loadBalancer]
+        [[http.services.backend_for_frontend.loadBalancer.servers]]
+          url = "http://127.0.0.1:5400"
