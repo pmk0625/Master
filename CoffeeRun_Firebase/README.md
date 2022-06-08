@@ -4,6 +4,8 @@
 
 Please use company email @coffeerun.com
 
+Otherwise, it will error since security validation email set only for coffeerun.com
+
 ## Preview
 
 ### Basic Page / Enter what you want
