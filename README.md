@@ -1,8 +1,8 @@
 # Master
 
-### Hello, My name is Minkyu Ray Park. I am currently a senior at California State University Fullerton, majoring in Computer Science. Progressing through Computer Science Major, I have experienced programming in C++, C, C#, Python, Java, Javascript, SQL, Assembly both ARM and x86,  and more. Please Enjoy this Master Repository, it consists of many Projects I have done over the years (Unfortunately not all).
+Hello, My name is Minkyu Ray Park. I am currently a senior at California State University Fullerton, majoring in Computer Science. Progressing through Computer Science Major, I have experienced programming in C++, C, C#, Python, Java, Javascript, SQL, Assembly both ARM and x86,  and more. Please Enjoy this Master Repository, it consists of many Projects I have done over the years (Unfortunately not all).
 
-### Preview Update is consistently being made! Thank you!
+Preview Update is consistently being made! Thank you!
 
 ## Table of Content
 
