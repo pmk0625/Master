@@ -31,32 +31,30 @@ You will also see any lint errors in the console.
 We have used the guidance provided by a youtuber with channel name, Clever Programmer on building a facebook clone website.
 We have added levels of details to fit our expectation required for CPSC-349.
 
-## Learn More
+## Previews
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Log In
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/36967168/172545913-2f6cbb88-f728-4525-8c62-88dd200b8c3a.png)
 
-### Code Splitting
+### Main Screen
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://user-images.githubusercontent.com/36967168/172546034-b9a68a4f-89fb-451f-96c9-32137d6ecd7a.png)
 
-### Analyzing the Bundle Size
+### Button Functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### From Left to Right (Starting with Color)
 
-### Making a Progressive Web App
+![image](https://user-images.githubusercontent.com/36967168/172546413-4a8c06a1-de73-4de9-b96e-b9aad652d314.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Down Arrow Goes Down Page (Note: Typing and Linking LINK IMAGE URL does not work ATM due to firebase hosting issues. When we created it a year ago, it did work.)
 
-### Advanced Configuration
+### Calendar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://user-images.githubusercontent.com/36967168/172546757-124cdea1-1d3d-48ab-95bd-379fda9e8a83.png)
 
-### Deployment
+### Person (Welcomes)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![image](https://user-images.githubusercontent.com/36967168/172546843-5e603954-41fd-44ef-a8f9-9539bd76871a.png)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
