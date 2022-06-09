@@ -66,3 +66,11 @@ Score on top left will increment as the snake grows.
 * 
 
 ## Previews
+
+<img width="902" alt="Screen Shot 2022-06-08 at 1 28 59 PM" src="https://user-images.githubusercontent.com/36967168/172773494-204611d2-a9c5-4434-8c36-bf939370d99e.png">
+
+
+<img width="1189" alt="Screen Shot 2022-06-08 at 1 29 55 PM" src="https://user-images.githubusercontent.com/36967168/172773570-49186082-d21d-4bc8-a648-a96f529bd21f.png">
+
+
+<img width="1189" alt="Screen Shot 2022-06-08 at 1 30 26 PM" src="https://user-images.githubusercontent.com/36967168/172773526-b06c53f1-c6fa-49bc-a9c6-a4b8871b9984.png">
