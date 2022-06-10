@@ -1,12 +1,20 @@
 # Covid_Map_Project
 
 ### instruction
+
 cd Covid_Map_Project
+
 cd my-coronavirus-map
+
 npm install
+
 npm start
+
+http://localhost:8000/
  
  ## Preview
+ 
+ The following format was burrowed from Colby Fayock but code differs in may ways. Utilized as class material by Professor.
  
 ![image](https://user-images.githubusercontent.com/36967168/172975361-d3681032-5c75-4a54-acf5-762c212ccf27.png)
 
