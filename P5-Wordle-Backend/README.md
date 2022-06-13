@@ -177,3 +177,27 @@ Make a guess for a specific user for a specific game. Evaluates guess validity a
 ```bash
 ./bin/p5-endpoints/game_info.sh <game_id> <user_id> <guess>
 ```
+## Previews
+
+![Screenshot from 2022-06-12 22-21-44](https://user-images.githubusercontent.com/36967168/173285253-e88f8564-2d6e-416f-b198-e041a3f1e3ec.png)
+
+On the right side of the capture, 
+```bash
+./bin/init.sh 
+```
+
+First, in the api folder, ```bash ./bin/init.sh ``` will start up the code (wordle wordlist, parsing, databases, filling databases).
+
+On the right side of the capture, ```bash redis-server ``` will fire up redis server for load balancer. (Seperate terminal)
+
+![Screenshot from 2022-06-12 22-21-44](https://user-images.githubusercontent.com/36967168/173285877-8c6ba707-e724-457e-a090-e62c40cd838c.png)
+
+Start the application using ```bash ./start.sh ```
+
+![Screenshot from 2022-06-12 22-35-56](https://user-images.githubusercontent.com/36967168/173286736-f9f37b72-e172-4eb6-9e32-4d26e4d2ebfd.png)
+
+![Screenshot from 2022-06-12 22-36-10](https://user-images.githubusercontent.com/36967168/173286747-939bc879-da4d-471c-bc8d-e38eecdd6930.png)
+
+
+
+
