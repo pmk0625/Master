@@ -198,6 +198,6 @@ Start the application using ```bash ./start.sh ```
 
 ![Screenshot from 2022-06-12 22-36-10](https://user-images.githubusercontent.com/36967168/173286747-939bc879-da4d-471c-bc8d-e38eecdd6930.png)
 
-
+It is difficult to explain but after starting the game with a userID in the database, you will grab the UUID of the UserID and input commands for guessing words for the game Wordle.
 
 
