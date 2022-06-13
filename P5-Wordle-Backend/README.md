@@ -199,6 +199,6 @@ After starting the game, using ```bash ./bin/p5-endpoints/new_game.sh qwalton ``
 Copy the game_id, user_id, enter guess (5 letter word) with the following command: ```bash ./bin/p5-endpoints/game_info.sh <game_id> <user_id> <guess>```. Happy Wordling using Back-End.
 
 
+![Screenshot from 2022-06-12 22-48-36](https://user-images.githubusercontent.com/36967168/173288216-2795eee5-c489-40dc-8c1a-06f7f34765b4.png)
 
-
-
+![Screenshot from 2022-06-12 22-48-56](https://user-images.githubusercontent.com/36967168/173288231-6170432b-b870-4667-b950-4a46d8e83150.png)
