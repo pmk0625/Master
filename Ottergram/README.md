@@ -2,7 +2,7 @@
 
 Following program is simple example of Front-Web Development.
 
-This project shows gallery of photos.
+This project shows gallery of photos with specific fonts and sizes.
 
 Display Pictures, Fonts, Click on different images to display on main screen and etc.
 
