@@ -132,33 +132,49 @@ Coffeerun / html, javascript, css / Same as above but without the firebase datab
 
 ### labex-01-pmk0625 - swift / Learn to use swift coding. Navigation view, Test cases, buttons
 
+![image](https://user-images.githubusercontent.com/36967168/173296582-15cf5d31-8b1c-4fa3-aac9-464dbb91a5f9.png)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### labex-02-pmk0625 - swift / Learn to use swift coding. Unit test, private(set) var, @state properties, VStack, HStack, List
+
+![image](https://user-images.githubusercontent.com/36967168/173296642-4aae14f7-1341-4ae6-9b9a-96084cb019e2.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### labex-03-pmk0625 - swift / Learn to use swift coding. GeometryReader, padding, fonts, size, colors, designs, emojis, @Binding
 
+![image](https://user-images.githubusercontent.com/36967168/173296702-049b992f-dd2d-494b-b8cd-5a4ee671234b.png)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### labex-04-pmk0625 - swift / Learn to use swift coding. @StateObjects, @EnvironmentObjects, TextLable, TextBox, structures, @ObservedObjects
+
+![image](https://user-images.githubusercontent.com/36967168/173296754-b1ef3639-7337-4f1e-bc6d-d10fea51dac7.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### labex-05-pmk0625 - swift / Learn to use swift coding. Tabview, Tabitem, @Published, Identifiables, List (.append), .onDelete and .onMove (modification of list), DisclosureGroup, offset/index/loops
 
+![image](https://user-images.githubusercontent.com/36967168/173296818-3cf20395-5a5c-4647-b7c6-3f30703379db.png)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### labex-06-pmk0625 - swift / Learn to use swift coding. API, Codable, DispatchQueue.main.async (Api -> JSON -> Decoder), Search, Saving Recent Search 
+
+![image](https://user-images.githubusercontent.com/36967168/173296868-f04d4051-aab3-494a-8f18-827a804107ca.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### labex-07-pmk0625 - swift / Learn to use swift coding. Shapes, CGRect (Custom Shapes), Shape Modifiers, Image uploads
 
+![image](https://user-images.githubusercontent.com/36967168/173296927-4974a3a3-b0a8-40e9-8629-2d3a8b12a6b0.png)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### project-silvery-barbs - swift / Created a phone application where Dungeons and Dragons fans can utilize to meet and schedule game sessions. Starting with basic registration page, nearby users map viewer, add friends (function not yet working), scheduler, view profile.
+
+![image](https://user-images.githubusercontent.com/36967168/173296990-7dcc010f-6032-4541-9bce-ca713714ecf0.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
