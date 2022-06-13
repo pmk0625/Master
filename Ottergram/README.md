@@ -15,3 +15,5 @@ As you can see, placing mouse on top of a small picture will grow it, clicking o
 Font is customized with color, shadow, size, and more.
 
 ![image](https://user-images.githubusercontent.com/36967168/173284064-b8c257b5-fa25-4c5b-91c3-3036c34ea242.png)
+
+Utilizing flex in .css files allows manipulation of websites depending on device sizes.
