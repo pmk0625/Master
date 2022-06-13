@@ -2,6 +2,8 @@
 
 Following program is simple example of Front-Web Development.
 
+This project shows gallery of photos.
+
 Display Pictures, Fonts, Click on different images to display on main screen and etc.
 
 ![image](https://user-images.githubusercontent.com/36967168/173283910-ac72e6f6-1336-461f-a459-0abc9a400b9d.png)
