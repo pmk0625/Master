@@ -18,3 +18,11 @@ manager.volunteer("Paul", for: 4)
 1. Run the program to see it in action!
 
 Hint: You can look at your test's code coverage to help you figure out if you have fully tested the `VolunteerManager` structure. You need to fix three bugs.
+
+## Preview
+
+The following code was programmed using XCode.
+
+<img width="1170" alt="Screen Shot 2022-06-12 at 11 26 33 PM" src="https://user-images.githubusercontent.com/36967168/173292582-e388382c-3490-4ab4-a114-051afa0654fd.png">
+
+The purpose of this project is to practice XCTest, Error Handling Test Cases.
