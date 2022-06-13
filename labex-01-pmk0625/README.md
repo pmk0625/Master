@@ -25,3 +25,19 @@ In this activity we will create a simple application that asks the user to provi
 ## Submission
 1. Commit and push your code to GitHub to submit it. See the FAQ on our Canvas page to see more details about commiting and pushing code to GitHub using XCode.
 1. You can verify your submission by refreshing the main page of the repository. It should show your commit message and the timestamp when you pushed the code.
+
+## Preview
+
+The following code was programmed using XCode.
+
+<img width="497" alt="Screen Shot 2022-06-12 at 11 20 28 PM" src="https://user-images.githubusercontent.com/36967168/173291943-e7ab9b5f-7275-4cb0-9b80-66ab85ed5b35.png">
+
+<img width="497" alt="Screen Shot 2022-06-12 at 11 21 00 PM" src="https://user-images.githubusercontent.com/36967168/173291988-fe9064ad-fb89-4f52-b403-bc338fe42cc6.png">
+
+<img width="497" alt="Screen Shot 2022-06-12 at 11 21 05 PM" src="https://user-images.githubusercontent.com/36967168/173292019-f83242c0-aac2-46ba-8889-8d72d91d932c.png">
+
+<img width="497" alt="Screen Shot 2022-06-12 at 11 21 18 PM" src="https://user-images.githubusercontent.com/36967168/173292033-93eb84e1-acc6-425a-8ab3-895a9f70b2e9.png">
+
+<img width="497" alt="Screen Shot 2022-06-12 at 11 21 22 PM" src="https://user-images.githubusercontent.com/36967168/173292046-5a4a9bc1-ef5c-4cb5-8ce2-5ff5e32cb956.png">
+
+Depending on the age of the Volunteer, specific hour will be displayed for them to volunteer as crosswalk manager.
