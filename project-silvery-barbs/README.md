@@ -12,3 +12,5 @@ This program is created to gather Dungeons and Dragon Players to meet up and sch
 <img width="1170" alt="Screen Shot 2022-06-12 at 11 50 24 PM" src="https://user-images.githubusercontent.com/36967168/173295931-c91bcd9d-1131-46d1-afa7-01532d3cb421.png">
 
 <img width="1170" alt="Screen Shot 2022-06-12 at 11 50 28 PM" src="https://user-images.githubusercontent.com/36967168/173295926-7e4c7a43-372a-48a5-b24e-783a60aefa6f.png">
+
+This project consists of all the previous lab concepts put together into one application.
