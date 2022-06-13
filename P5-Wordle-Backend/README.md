@@ -1,5 +1,7 @@
 # Wordle Clone
 
+Following Project is accessible via Linux Environment. We Used Ubuntu.
+
 ### Project 5 by
 * Evan Delasota
 * Iftekharul Islam
