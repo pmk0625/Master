@@ -100,6 +100,8 @@ Coffeerun / html, javascript, css / Same as above but without the firebase datab
 
 ### Project-2-COVID19-Tracker-master - html, javascript, css, npm, Gatsby(map service) / Finalized version of Covid map tracker
 
+![image](https://user-images.githubusercontent.com/36967168/174740806-2f260330-f4f6-435a-a4cc-83449af0567f.png)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### RESTful-Back-End-Microservice - python, sqlite3, nosql, traefik, json, db / Create a back-end web service that implements a game called Wordle. Back-end microservices implemented by creating db, sharding db, load balancers, GET/POST/PUT/DELETE. More complete version can be found in P5-Wordle-Backend. 
