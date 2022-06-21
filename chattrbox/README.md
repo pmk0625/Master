@@ -8,4 +8,4 @@ Created by Minkyu R. Park
 
 ## Starting the app
 
-Run ```bash npm start ```
+Run ``` npm start ```
