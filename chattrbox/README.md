@@ -12,7 +12,7 @@ Navigate to chattrbox folder ``` cd chattrbox ```
 
 Run ``` npm start ```
 
-Open ** localhost:3000 **
+Open *** localhost:3000 ***
 
 ### Preview
 
