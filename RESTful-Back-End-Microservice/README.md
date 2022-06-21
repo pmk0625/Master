@@ -6,7 +6,7 @@ This project is implementation of game Wordle using back-end microservices.
 
 More complete version in terms of utilization of back-end microservices is linked below:
 
-
+**https://github.com/pmk0625/Master/tree/main/P5-Wordle-Backend**
 
 ## Authors:
 
