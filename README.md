@@ -124,6 +124,8 @@ Coffeerun / html, javascript, css / Same as above but without the firebase datab
 
 ### chattrbox - java, html, css, json, babel, acorn and more / using websockets server to connect between multiple people to chat. Chat live update, can be used with multiple users
 
+![image](https://user-images.githubusercontent.com/36967168/174751927-e8c3b58a-45b4-4e2b-a21c-0f21cdcbf38b.png)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### cpsc-386-01-pig-pmk0625 - python / Create Pig Game using python. A simple dice game
