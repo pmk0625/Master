@@ -34,11 +34,19 @@ For demo, I will input ` diana.prince@bignerdranch.com ` in Microsoft Edge
 
 Any username can be used due to no limitation specified. 
 
-This program was designed with json (init), javascript, html, css, babel, and websockets-server to run live server. 
+### This program was designed with json (init), javascript, html, css, babel, and websockets-server to run live server. 
 
 Triple users...
 
 ![image](https://user-images.githubusercontent.com/36967168/174751927-e8c3b58a-45b4-4e2b-a21c-0f21cdcbf38b.png)
+
+Terminal Previews
+
+![image](https://user-images.githubusercontent.com/36967168/174752576-8ea15cad-fbbb-4b5e-9fa3-5c90c7168d8a.png)
+
+![image](https://user-images.githubusercontent.com/36967168/174752640-e1562287-a0dc-41f2-b1d6-bd996179c9d1.png)
+
+
 
 
 
