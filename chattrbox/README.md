@@ -20,7 +20,7 @@ Opening localhost:3000 you will see semi-login page
 
 ![image](https://user-images.githubusercontent.com/36967168/174749067-44e18d37-ae92-421e-a23c-4e2eb1f4ebf1.png)
 
-Currently hard coded, so input ` clark.ken@bignerdranch.com `
+For demo, I will input ` clark.ken@bignerdranch.com ` in Chrome
 
 Upon logging in, you will the the following page.
 
@@ -28,6 +28,17 @@ Upon logging in, you will the the following page.
 
 This program utilizes websockets-server, so when another user happen to log on utilizing the same server, they are able to chat with one another.
 
+For demo, I will input ` diana.prince@bignerdranch.com ` in Microsoft Edge
+
 ![image](https://user-images.githubusercontent.com/36967168/174750594-81cbaa28-3e18-42aa-b931-a3ece6892933.png)
+
+Any username can be used due to no limitation specified. 
+
+This program was designed with json (init), javascript, html, css, babel, and websockets-server to run live server. 
+
+Triple users...
+
+![image](https://user-images.githubusercontent.com/36967168/174751927-e8c3b58a-45b4-4e2b-a21c-0f21cdcbf38b.png)
+
 
 
