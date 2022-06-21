@@ -4,7 +4,7 @@ Hello, My name is Minkyu Ray Park. I am currently a senior at California State U
 
 Please Enjoy this Master Repository, it consists of many Projects I have done over the years (Unfortunately not all).
 
-Preview Update is consistently being made! Thank you!
+Thank you!
 
 ## Table of Content
 
