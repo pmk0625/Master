@@ -2,13 +2,13 @@
 
 ### instruction
 
-cd Covid_Map_Project
+` cd Covid_Map_Project `
 
-cd my-coronavirus-map
+` cd my-coronavirus-map `
 
-npm install
+` npm install `
 
-npm start
+` npm start `
 
 http://localhost:8000/
  
