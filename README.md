@@ -98,7 +98,7 @@ Coffeerun / html, javascript, css / Same as above but without the firebase datab
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Project-2-COVID19-Tracker-master - html, javascript, css, npm, Gatsby(map service) / Finalized version of Covid map tracker
+### Project-2-COVID19-Tracker-master - html, javascript, css, npm, Gatsby/Leaftlet(map service) / Finalized version of Covid map tracker
 
 ![image](https://user-images.githubusercontent.com/36967168/174740806-2f260330-f4f6-435a-a4cc-83449af0567f.png)
 
